@@ -5,4 +5,12 @@ fun main(){
 
     println("$nome" + " tem a idade de: $idade") // String template (Usamos o -> $ )
 
+    testaIdade(idade)
+}
+
+fun testaIdade(idade: Int){
+
+    if(idade > 18){
+        println("Maior de idade")
+    }
 }
