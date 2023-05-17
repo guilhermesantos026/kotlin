@@ -1,0 +1,19 @@
+version: '3.9'
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'adopet'
+      MYSQL_USER: 'adopet'
+      MYSQL_PASSWORD: 'adopet'
+      MYSQL_ROOT_PASSWORD: 'adopet123'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+
+
+#docker run -p 3306:3306 --name=mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql
+
+#docker exec -it mysql mysql -uroot -p

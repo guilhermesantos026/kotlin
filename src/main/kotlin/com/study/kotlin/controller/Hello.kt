@@ -1,4 +1,4 @@
-package com.study.kotlin
+package com.study.kotlin.controller
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController

@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: "org.hibernate.dialect.MySQL5Dialect"
+  datasource:
+    url: "jdbc:mysql://localhost:3306/adopet"
+    username: "adopet"
+    password: "adopet"
